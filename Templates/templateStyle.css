@@ -1,3 +1,53 @@
+
+header {
+    background-color: aqua;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+header nav {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 5px;
+
+    
+}
+
+#story {
+    display: flex;
+    background-color: brown;
+    margin: 10px;
+    padding: 5px;
+}
+
+section {
+    margin: 10px;
+    padding: 5px;
+}
+
+section.combinedElmts {
+    background-color: chocolate;
+}
+
+.imgOnly {
+    background-color: beige;
+    margin: auto;
+    padding: inherit;
+}
+
+section.textOnly {
+    background-color: coral;    
+}
+
+aside {
+    background-color: red;
+    margin: 10px;
+    padding: 5px;
+}
+ 
+
+
 p {
-  color: red;
+  color: blanchedalmond;
   }
