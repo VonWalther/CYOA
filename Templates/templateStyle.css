@@ -1,3 +1,6 @@
+a{
+    text-decoration: none;
+}
 
 header {
     background-color: aqua;
@@ -10,8 +13,31 @@ header nav {
     background-color: aquamarine;
     margin: 10px;
     padding: 5px;
+}
+
+.header_list > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+    background-color: beige;  
+}
+
+.header_list li {
+    display: inline;
+}
+
+
+li a{
+    display: block;
+    width: 60px;
+    color: #101010;
+}
 
     
+li a:hover {
+    background-color: #454545;
+    color: white;
 }
 
 #story {
@@ -46,8 +72,20 @@ aside {
     padding: 5px;
 }
  
+footer { 
+    background-color: aqua;
+    margin: 10px;
+    padding: 5px;
 
+}
+address {
+    background-color: azure;
+    margin: 10px;
+    padding: 5px;
+}
 
 p {
   color: blanchedalmond;
-  }
+}
+
+
