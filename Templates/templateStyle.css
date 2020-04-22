@@ -1,4 +1,4 @@
-a{
+a {
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ header nav {
 }
 
 .header_list li {
-    display: inline;
+    display: inline-block;
 }
 
 
@@ -87,5 +87,4 @@ address {
 p {
   color: blanchedalmond;
 }
-
 
