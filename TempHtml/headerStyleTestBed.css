@@ -1,10 +1,18 @@
 //Header css as a testbed.
+div {
+    background-color: blue;
+    margin: 15px;
+    padding: 5px;
+}
+
+
 header {
     background-color: aqua;
     margin: 10px;
     padding: 5px;
 
 }
+
 li {
     color: red;
 }
