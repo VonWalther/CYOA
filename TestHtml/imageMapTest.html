@@ -4,11 +4,18 @@
         <title>Carpet Tiles</title>
     </head>
     <body>
-        <figure>
-            <img  src = "../Media/Photos/CarpetSq.png" alt = "Selection of Carpet Squares." title = "Click a square." width = "600px" height = "800px">
-            <figcaption>Click on the squares.</figcaption>
-            <p>This is some text for you to read.</p>
-        </figure>
+        <article>
+          <p>This is text on top of the image.</p>
+          <figure>
+              <img  src = "../Media/Photos/CarpetSq.png" alt = "Selection of Carpet Squares." title = "Click a square." width = "600px" height = "800px" usemap = "#CarpetTiles">
+              <figcaption>Click on the squares.</figcaption>
+              <map name ="CarpetTiles">
+                  <area shape = "poly" coords = "200,100, 400,80, 410,200, 210,280" alt = "Blue Square" title = "Blue me, you click?" href = "Google.com" /> 
+              </map>
+              
+              <p>This is some text for you to read.</p>
+          </figure>
+        </article>
     </body>
 
 </html>
