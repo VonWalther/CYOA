@@ -1,4 +1,31 @@
 //Image Map Test CSS
-p {
+
+.textBlockWithPic {
+    width: 550px;
+    margin: 20px;
+    padding: 10px;
+    max-width: 600px;
+    background-color: antiquewhite;
+}
+
+.textBlockWithPic p {
     background-color: beige;
+
+}
+
+.textBlockWithPic h2 {
+    background-color: #AAA;
+}
+
+.textBlockWithPic>h2 {
+    color: blanchedalmond;
+}
+
+.embeddedPic {
+    float: left;
+    margin: 40px;
+    width: 400px;
+    padding: 10px;
+    background-color: #EEE;
+
 }
